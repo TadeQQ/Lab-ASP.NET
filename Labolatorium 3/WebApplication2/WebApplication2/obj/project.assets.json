@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\tadeusz.kiszka\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "D:\\Users\\tadeusz.kiszka\\Documents\\Lab-ASP.NET\\Labolatorium 3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "D:\\Users\\tadeusz.kiszka\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "D:\\Users\\tadeusz.kiszka\\Documents\\Lab-ASP.NET\\Labolatorium 3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "D:\\Users\\tadeusz.kiszka\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\tadeusz.kiszka\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "D:\\Users\\tadeusz.kiszka\\Documents\\Lab-ASP.NET\\Labolatorium 3\\WebApplication2\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\tadeusz.kiszka\\AppData\\Roaming\\NuGet\\NuGet.Config",
