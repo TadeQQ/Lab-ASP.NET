@@ -4,13 +4,13 @@ using WebApplication2.Models;
 
 public class EmployeeController : Controller
 {
-    public IActionResult Create()
+    public IActionResult CreateEmployee()
     {
         return View();
     }
 
     [HttpPost]
-    public IActionResult Create(Employee employee)
+    public IActionResult CreateEmployee(Employee employee)
     {
         if (ModelState.IsValid)
         {
@@ -22,7 +22,8 @@ public class EmployeeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Employee> employees = new List<Employee>(); // Pobierz listę pracowników
+        return View(employees);
     }
 
 }
