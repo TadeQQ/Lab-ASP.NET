@@ -1,0 +1,14 @@
+﻿@model WebApplication2.Models.Employee
+
+<h2>Szczegóły pracownika</h2>
+
+<p>Imię: @Model.FirstName</p>
+<p>Nazwisko: @Model.LastName</p>
+<p>PESEL: @Model.PESEL</p>
+<p>Stanowisko: @Model.Position</p>
+<p>Oddział: @Model.Department</p>
+<p>Data zatrudnienia: @Model.EmploymentDate.ToString("d")</p>
+<p>Data zakończenia zatrudnienia: @(Model.TerminationDate.HasValue ? Model.TerminationDate.Value.ToString("d") : "Brak")</p>
+
+<a asp-action="Index" class="btn btn-primary">Powrót do listy</a>
+
