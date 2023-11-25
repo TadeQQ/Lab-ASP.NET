@@ -19,5 +19,11 @@ public class EmployeeController : Controller
 
         return View(employee);
     }
+
+    public IActionResult Index()
+    {
+        return View();
+    }
+
 }
 
