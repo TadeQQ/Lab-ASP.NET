@@ -1,6 +1,6 @@
 ﻿namespace WebApplication2.Models
 {
-    public interface IContactService
+    public interface IEmployeesService
     {
         int Add(Employee book);
         void Delete(int id);
