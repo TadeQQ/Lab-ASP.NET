@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Laboratorium 3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-      "projectName": "WebApplication2",
-      "projectPath": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Laboratorium 3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Data\\Data.csproj",
       "packagesPath": "D:\\Users\\tadeusz.kiszka\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Laboratorium 3\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "D:\\Users\\tadeusz.kiszka\\Documents\\GitHub\\Lab-ASP.NET\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\tadeusz.kiszka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
