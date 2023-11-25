@@ -7,6 +7,7 @@ public class Employee
 {
     [HiddenInput]
     public int Id { get; set; }
+    public Priority Priority { get; set; }
 
     [Required(ErrorMessage = "Proszę podać imię.")]
     public string FirstName { get; set; }
