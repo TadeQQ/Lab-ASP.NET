@@ -1,0 +1,29 @@
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\bin\Debug\net7.0\EmployeeData.deps.json
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\bin\Debug\net7.0\EmployeeData.runtimeconfig.json
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\bin\Debug\net7.0\EmployeeData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\bin\Debug\net7.0\EmployeeData.pdb
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.csproj.AssemblyReference.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.AssemblyInfoInputs.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.AssemblyInfo.cs
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.csproj.CoreCompileInputs.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\refint\EmployeeData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.pdb
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\EmployeeData.genruntimeconfig.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\EmployeeData\obj\Debug\net7.0\ref\EmployeeData.dll
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\bin\Debug\net7.0\EmployeeData.deps.json
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\bin\Debug\net7.0\EmployeeData.runtimeconfig.json
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\bin\Debug\net7.0\EmployeeData.dll
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\bin\Debug\net7.0\EmployeeData.pdb
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.csproj.AssemblyReference.cache
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.GeneratedMSBuildEditorConfig.editorconfig
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.AssemblyInfoInputs.cache
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.AssemblyInfo.cs
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.csproj.CoreCompileInputs.cache
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.sourcelink.json
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.dll
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\refint\EmployeeData.dll
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.pdb
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\EmployeeData.genruntimeconfig.cache
+F:\KURS\github repos\Lab-ASP.NET\EmployeeData\obj\Debug\net7.0\ref\EmployeeData.dll

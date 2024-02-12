@@ -1,0 +1,9 @@
+﻿@model Lab3zadanie.Models.Employee
+
+<h1>Are you sure you want to delete the employee with id: @Model.Id?</h1>
+
+<form asp-controller="Employee" asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button class="btn btn-danger" type="submit">Yes, Delete Employee</button>
+</form>
+<a class="btn btn-primary" asp-action="Index">No, Go Back</a>

@@ -1,0 +1,22 @@
+﻿@model Lab3zadanie.Models.Employee
+
+<h1>Employee "@Model.FirstName" "@Model.LastName" Details</h1>
+
+<table class="table">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Pesel</th>
+        <th>Position</th>
+        <th>Department</th>
+    </tr>
+    <tr>
+        <td>@Model.FirstName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.PESEL</td>
+        <td>@Model.Position</td>
+        <td>@Model.Department</td>
+    </tr>
+</table>
+
+<a class="btn btn-primary" asp-action="Index">Back</a>

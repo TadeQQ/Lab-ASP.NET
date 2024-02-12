@@ -1,0 +1,14 @@
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\bin\Debug\net7.0\AlbumData.deps.json
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\bin\Debug\net7.0\AlbumData.runtimeconfig.json
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\bin\Debug\net7.0\AlbumData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\bin\Debug\net7.0\AlbumData.pdb
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.csproj.AssemblyReference.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.AssemblyInfoInputs.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.AssemblyInfo.cs
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.csproj.CoreCompileInputs.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\refint\AlbumData.dll
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.pdb
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\AlbumData.genruntimeconfig.cache
+C:\Users\OEM\Desktop\ASP.NET-CORE-LAB-main\AlbumData\obj\Debug\net7.0\ref\AlbumData.dll
