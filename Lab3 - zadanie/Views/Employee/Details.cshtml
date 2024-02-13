@@ -9,6 +9,8 @@
         <th>Pesel</th>
         <th>Position</th>
         <th>Department</th>
+        <th>Employment Date</th>
+        <th>Termination Date</th>
     </tr>
     <tr>
         <td>@Model.FirstName</td>
@@ -16,6 +18,15 @@
         <td>@Model.PESEL</td>
         <td>@Model.Position</td>
         <td>@Model.Department</td>
+        <td>@Model.EmploymentDate</td>
+         @{
+            if (Model.TerminationDate != null)
+            {
+                <td>@Model.TerminationDate</td>
+            }
+            else {<td>Still working</td>}
+            }
+       
     </tr>
 </table>
 
