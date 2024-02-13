@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240213151242_Test")]
+    [Migration("20240213193323_Test")]
     partial class Test
     {
         /// <inheritdoc />
@@ -108,15 +108,15 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70",
-                            ConcurrencyStamp = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70",
+                            Id = "f065f4b7-24e8-46c6-855e-1eb34e471366",
+                            ConcurrencyStamp = "f065f4b7-24e8-46c6-855e-1eb34e471366",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "007aad12-bf4b-46de-879c-8f69372466d5",
-                            ConcurrencyStamp = "007aad12-bf4b-46de-879c-8f69372466d5",
+                            Id = "7852fca4-0f76-49db-ab67-e1118f925dbc",
+                            ConcurrencyStamp = "7852fca4-0f76-49db-ab67-e1118f925dbc",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -211,33 +211,33 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "2313d44b-7230-4df4-8dd5-55051e151f4f",
+                            Id = "2480bddb-c0bb-4ccd-b755-eff78d80c485",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ac26cc49-e3e2-4665-9ff0-04743305860c",
+                            ConcurrencyStamp = "41374f5f-545b-4a75-8c56-9c7cb4b890f0",
                             Email = "tadeusz@employees.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "TADEUSZ@EMPLOYEES.PL",
                             NormalizedUserName = "TADEUSZ",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAoXlVk21HzxRlGYgII4ELXC0ym6Vdw9Vb8L+4R6L4oFHe0ad+8ooDjTkpijrr2VCQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOMuRwAA9lr89awA18TuokgeMfRXmnoPHzt1Gd7nc4xXTdK2Qc/CIguyNWdkL23d0A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "6bdb288e-0d9f-499a-aed5-7a7d8bf5d2eb",
+                            SecurityStamp = "bf56553b-ed6b-4944-8b75-e30b06d31cfe",
                             TwoFactorEnabled = false,
                             UserName = "Tadeusz"
                         },
                         new
                         {
-                            Id = "a6172846-f05f-40f2-afe6-120fe357d16c",
+                            Id = "14fc279b-ed8a-4caf-9777-9a06f1973563",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "97ec27c3-de0c-49c8-ad39-4f2daf29fd40",
+                            ConcurrencyStamp = "406122a6-6fa8-42ff-a5dd-29ff5ada4c85",
                             Email = "adam@employees.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADAM@EMPLOYEES.PL",
                             NormalizedUserName = "ADAM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDmoafySj0taF1FHkNWNqPBafxfTts+8XgSUjvAclLPsXinOukd4CedZbGlKAFL8tw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECRxZGAs5D6Y5vKgiK1hhard+sa1XxIz2jcwQA8A3529Lmtdweqnodw+XH3PqMpyig==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3145d9c9-f1ef-439f-ab8d-66d101447914",
+                            SecurityStamp = "1ba39cef-5cf9-45bc-a711-aa906c91df7d",
                             TwoFactorEnabled = false,
                             UserName = "Adam"
                         });
@@ -305,13 +305,13 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "2313d44b-7230-4df4-8dd5-55051e151f4f",
-                            RoleId = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70"
+                            UserId = "2480bddb-c0bb-4ccd-b755-eff78d80c485",
+                            RoleId = "f065f4b7-24e8-46c6-855e-1eb34e471366"
                         },
                         new
                         {
-                            UserId = "a6172846-f05f-40f2-afe6-120fe357d16c",
-                            RoleId = "007aad12-bf4b-46de-879c-8f69372466d5"
+                            UserId = "14fc279b-ed8a-4caf-9777-9a06f1973563",
+                            RoleId = "7852fca4-0f76-49db-ab67-e1118f925dbc"
                         });
                 });
 

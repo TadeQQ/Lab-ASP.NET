@@ -17,15 +17,29 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ae1cfc-150b-451e-9e00-0bab70b0b98e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/20240213151242_Test.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/20240213151242_Test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/ref/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/ref/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/refint/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/refint/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Update.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.sourcelink.json" afterDir="false" />
@@ -246,7 +260,7 @@
       <workItem from="1707776334723" duration="1625000" />
       <workItem from="1707778005387" duration="2019000" />
       <workItem from="1707822511516" duration="10968000" />
-      <workItem from="1707836738918" duration="4444000" />
+      <workItem from="1707836738918" duration="7454000" />
     </task>
     <servers />
   </component>

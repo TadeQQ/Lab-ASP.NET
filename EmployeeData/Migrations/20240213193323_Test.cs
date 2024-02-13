@@ -182,8 +182,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "007aad12-bf4b-46de-879c-8f69372466d5", "007aad12-bf4b-46de-879c-8f69372466d5", "user", "USER" },
-                    { "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "admin", "ADMIN" }
+                    { "7852fca4-0f76-49db-ab67-e1118f925dbc", "7852fca4-0f76-49db-ab67-e1118f925dbc", "user", "USER" },
+                    { "f065f4b7-24e8-46c6-855e-1eb34e471366", "f065f4b7-24e8-46c6-855e-1eb34e471366", "admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -191,8 +191,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "2313d44b-7230-4df4-8dd5-55051e151f4f", 0, "ac26cc49-e3e2-4665-9ff0-04743305860c", "tadeusz@employees.pl", true, false, null, "TADEUSZ@EMPLOYEES.PL", "TADEUSZ", "AQAAAAIAAYagAAAAEAoXlVk21HzxRlGYgII4ELXC0ym6Vdw9Vb8L+4R6L4oFHe0ad+8ooDjTkpijrr2VCQ==", null, false, "6bdb288e-0d9f-499a-aed5-7a7d8bf5d2eb", false, "Tadeusz" },
-                    { "a6172846-f05f-40f2-afe6-120fe357d16c", 0, "97ec27c3-de0c-49c8-ad39-4f2daf29fd40", "adam@employees.pl", true, false, null, "ADAM@EMPLOYEES.PL", "ADAM", "AQAAAAIAAYagAAAAEDmoafySj0taF1FHkNWNqPBafxfTts+8XgSUjvAclLPsXinOukd4CedZbGlKAFL8tw==", null, false, "3145d9c9-f1ef-439f-ab8d-66d101447914", false, "Adam" }
+                    { "14fc279b-ed8a-4caf-9777-9a06f1973563", 0, "406122a6-6fa8-42ff-a5dd-29ff5ada4c85", "adam@employees.pl", true, false, null, "ADAM@EMPLOYEES.PL", "ADAM", "AQAAAAIAAYagAAAAECRxZGAs5D6Y5vKgiK1hhard+sa1XxIz2jcwQA8A3529Lmtdweqnodw+XH3PqMpyig==", null, false, "1ba39cef-5cf9-45bc-a711-aa906c91df7d", false, "Adam" },
+                    { "2480bddb-c0bb-4ccd-b755-eff78d80c485", 0, "41374f5f-545b-4a75-8c56-9c7cb4b890f0", "tadeusz@employees.pl", true, false, null, "TADEUSZ@EMPLOYEES.PL", "TADEUSZ", "AQAAAAIAAYagAAAAEOMuRwAA9lr89awA18TuokgeMfRXmnoPHzt1Gd7nc4xXTdK2Qc/CIguyNWdkL23d0A==", null, false, "bf56553b-ed6b-4944-8b75-e30b06d31cfe", false, "Tadeusz" }
                 });
 
             migrationBuilder.InsertData(
@@ -209,8 +209,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "2313d44b-7230-4df4-8dd5-55051e151f4f" },
-                    { "007aad12-bf4b-46de-879c-8f69372466d5", "a6172846-f05f-40f2-afe6-120fe357d16c" }
+                    { "7852fca4-0f76-49db-ab67-e1118f925dbc", "14fc279b-ed8a-4caf-9777-9a06f1973563" },
+                    { "f065f4b7-24e8-46c6-855e-1eb34e471366", "2480bddb-c0bb-4ccd-b755-eff78d80c485" }
                 });
 
             migrationBuilder.CreateIndex(
