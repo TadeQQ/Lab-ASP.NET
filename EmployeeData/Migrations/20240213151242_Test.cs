@@ -182,8 +182,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "0834ab74-012f-4649-b8b7-0514759647c8", "0834ab74-012f-4649-b8b7-0514759647c8", "admin", "ADMIN" },
-                    { "6b6c2123-5877-4fb4-923f-d7192bde6d47", "6b6c2123-5877-4fb4-923f-d7192bde6d47", "user", "USER" }
+                    { "007aad12-bf4b-46de-879c-8f69372466d5", "007aad12-bf4b-46de-879c-8f69372466d5", "user", "USER" },
+                    { "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -191,8 +191,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "8bee3502-c30e-4184-a281-b825a625bac6", 0, "f84e40c4-07a7-4b18-87ce-d4bf761b7930", "user@example.com", true, false, null, null, "USER", "AQAAAAIAAYagAAAAEI9J4lr0aBABa3486Z/lJdX7eu4GAd+SguHCyvCldR1AkQe6CuAuohbORTWWV7Ro4Q==", null, false, "55633a00-49ad-44de-8b34-b88aa2c87602", false, "user" },
-                    { "f4501552-4f87-4184-95de-475cf07b6a2c", 0, "019cabd1-d6c1-484f-8580-16e7c2b6a098", "adam@wsei.edu.pl", true, false, null, null, "ADMIN", "AQAAAAIAAYagAAAAEJt/mhYNRewo7P7dXJRCoWL8UJ7NqhK/cP5UUZsnDsTSgdeyZBTE6UdWVoMV3aLcxQ==", null, false, "9a5bbae7-f134-49d7-9e31-d1e79f486ae5", false, "adam" }
+                    { "2313d44b-7230-4df4-8dd5-55051e151f4f", 0, "ac26cc49-e3e2-4665-9ff0-04743305860c", "tadeusz@employees.pl", true, false, null, "TADEUSZ@EMPLOYEES.PL", "TADEUSZ", "AQAAAAIAAYagAAAAEAoXlVk21HzxRlGYgII4ELXC0ym6Vdw9Vb8L+4R6L4oFHe0ad+8ooDjTkpijrr2VCQ==", null, false, "6bdb288e-0d9f-499a-aed5-7a7d8bf5d2eb", false, "Tadeusz" },
+                    { "a6172846-f05f-40f2-afe6-120fe357d16c", 0, "97ec27c3-de0c-49c8-ad39-4f2daf29fd40", "adam@employees.pl", true, false, null, "ADAM@EMPLOYEES.PL", "ADAM", "AQAAAAIAAYagAAAAEDmoafySj0taF1FHkNWNqPBafxfTts+8XgSUjvAclLPsXinOukd4CedZbGlKAFL8tw==", null, false, "3145d9c9-f1ef-439f-ab8d-66d101447914", false, "Adam" }
                 });
 
             migrationBuilder.InsertData(
@@ -200,8 +200,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "Id", "Department", "EmploymentDate", "FirstName", "LastName", "PESEL", "Position", "TerminationDate" },
                 values: new object[,]
                 {
-                    { 1, "XYS", new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Adnrzej", "Kowalski", "12345678910", "pozycja", null },
-                    { 2, "XYS", new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "LKia", "ASdasd", "12352635213", "pozycja", null }
+                    { 1, "IT", new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Andrzej", "Kowalski", "12345678910", "Java Developer", null },
+                    { 2, "HR", new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Adam", "Nowacki", "12352635213", "Intern", null }
                 });
 
             migrationBuilder.InsertData(
@@ -209,8 +209,8 @@ namespace EmployeeData.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "6b6c2123-5877-4fb4-923f-d7192bde6d47", "8bee3502-c30e-4184-a281-b825a625bac6" },
-                    { "0834ab74-012f-4649-b8b7-0514759647c8", "f4501552-4f87-4184-95de-475cf07b6a2c" }
+                    { "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70", "2313d44b-7230-4df4-8dd5-55051e151f4f" },
+                    { "007aad12-bf4b-46de-879c-8f69372466d5", "a6172846-f05f-40f2-afe6-120fe357d16c" }
                 });
 
             migrationBuilder.CreateIndex(
