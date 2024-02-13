@@ -26,7 +26,8 @@ namespace Lab3zadanie
             builder.Services.AddRazorPages();                         
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<Lab3___zadanieContextConnection.AppDbContext>();
-            builder.Services.AddDefaultIdentity<IdentityUser>()       
+            builder.Services.AddDefaultIdentity<IdentityUser>()     
+                .AddRoles<IdentityRole>()    
                 .AddEntityFrameworkStores<Lab3___zadanieContextConnection.AppDbContext>();
             builder.Services.AddTransient<IEmployeeService, EFEmployeeService>();
             builder.Services.AddTransient<IEmployeeService, EFEmployeeService>();
