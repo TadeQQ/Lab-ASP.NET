@@ -17,42 +17,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ae1cfc-150b-451e-9e00-0bab70b0b98e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AspLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AspLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeControllerTests/obj/Debug/net7.0/EmployeeControllerTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/20240212225741_Test.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/20240212225741_Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/EmployeeData.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/ref/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/ref/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/refint/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/net7.0/refint/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Controllers/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Models/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Models/Department.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Details.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Update.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Employee/Update.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/EmployeeData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/bin/Debug/net7.0/lab3zadanie.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3 - zadanie/obj/Debug/net7.0/lab3zadanie.sourcelink.json" afterDir="false" />
@@ -80,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Lab3 - zadanie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab3 - zadanie/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab3 - zadanie/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab3 - zadanie/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab3 - zadanie/wwwroot/lib/jquery/dist/jquery.min.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
@@ -272,7 +246,7 @@
       <workItem from="1707776334723" duration="1625000" />
       <workItem from="1707778005387" duration="2019000" />
       <workItem from="1707822511516" duration="10968000" />
-      <workItem from="1707836738918" duration="2723000" />
+      <workItem from="1707836738918" duration="4444000" />
     </task>
     <servers />
   </component>
