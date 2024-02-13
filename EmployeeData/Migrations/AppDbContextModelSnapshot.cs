@@ -58,22 +58,22 @@ namespace EmployeeData.Migrations
                         new
                         {
                             Id = 1,
-                            Department = "XYS",
+                            Department = "IT",
                             EmploymentDate = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            FirstName = "Adnrzej",
+                            FirstName = "Andrzej",
                             LastName = "Kowalski",
                             PESEL = "12345678910",
-                            Position = "pozycja"
+                            Position = "Java Developer"
                         },
                         new
                         {
                             Id = 2,
-                            Department = "XYS",
+                            Department = "HR",
                             EmploymentDate = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            FirstName = "LKia",
-                            LastName = "ASdasd",
+                            FirstName = "Adam",
+                            LastName = "Nowacki",
                             PESEL = "12352635213",
-                            Position = "pozycja"
+                            Position = "Intern"
                         });
                 });
 
@@ -105,15 +105,15 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0834ab74-012f-4649-b8b7-0514759647c8",
-                            ConcurrencyStamp = "0834ab74-012f-4649-b8b7-0514759647c8",
+                            Id = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70",
+                            ConcurrencyStamp = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "6b6c2123-5877-4fb4-923f-d7192bde6d47",
-                            ConcurrencyStamp = "6b6c2123-5877-4fb4-923f-d7192bde6d47",
+                            Id = "007aad12-bf4b-46de-879c-8f69372466d5",
+                            ConcurrencyStamp = "007aad12-bf4b-46de-879c-8f69372466d5",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -208,33 +208,35 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "f4501552-4f87-4184-95de-475cf07b6a2c",
+                            Id = "2313d44b-7230-4df4-8dd5-55051e151f4f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "019cabd1-d6c1-484f-8580-16e7c2b6a098",
-                            Email = "adam@wsei.edu.pl",
+                            ConcurrencyStamp = "ac26cc49-e3e2-4665-9ff0-04743305860c",
+                            Email = "tadeusz@employees.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJt/mhYNRewo7P7dXJRCoWL8UJ7NqhK/cP5UUZsnDsTSgdeyZBTE6UdWVoMV3aLcxQ==",
+                            NormalizedEmail = "TADEUSZ@EMPLOYEES.PL",
+                            NormalizedUserName = "TADEUSZ",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAoXlVk21HzxRlGYgII4ELXC0ym6Vdw9Vb8L+4R6L4oFHe0ad+8ooDjTkpijrr2VCQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9a5bbae7-f134-49d7-9e31-d1e79f486ae5",
+                            SecurityStamp = "6bdb288e-0d9f-499a-aed5-7a7d8bf5d2eb",
                             TwoFactorEnabled = false,
-                            UserName = "adam"
+                            UserName = "Tadeusz"
                         },
                         new
                         {
-                            Id = "8bee3502-c30e-4184-a281-b825a625bac6",
+                            Id = "a6172846-f05f-40f2-afe6-120fe357d16c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f84e40c4-07a7-4b18-87ce-d4bf761b7930",
-                            Email = "user@example.com",
+                            ConcurrencyStamp = "97ec27c3-de0c-49c8-ad39-4f2daf29fd40",
+                            Email = "adam@employees.pl",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI9J4lr0aBABa3486Z/lJdX7eu4GAd+SguHCyvCldR1AkQe6CuAuohbORTWWV7Ro4Q==",
+                            NormalizedEmail = "ADAM@EMPLOYEES.PL",
+                            NormalizedUserName = "ADAM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDmoafySj0taF1FHkNWNqPBafxfTts+8XgSUjvAclLPsXinOukd4CedZbGlKAFL8tw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "55633a00-49ad-44de-8b34-b88aa2c87602",
+                            SecurityStamp = "3145d9c9-f1ef-439f-ab8d-66d101447914",
                             TwoFactorEnabled = false,
-                            UserName = "user"
+                            UserName = "Adam"
                         });
                 });
 
@@ -300,13 +302,13 @@ namespace EmployeeData.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "f4501552-4f87-4184-95de-475cf07b6a2c",
-                            RoleId = "0834ab74-012f-4649-b8b7-0514759647c8"
+                            UserId = "2313d44b-7230-4df4-8dd5-55051e151f4f",
+                            RoleId = "873bb0d3-f6fa-415e-8fe1-d7e9b63d7c70"
                         },
                         new
                         {
-                            UserId = "8bee3502-c30e-4184-a281-b825a625bac6",
-                            RoleId = "6b6c2123-5877-4fb4-923f-d7192bde6d47"
+                            UserId = "a6172846-f05f-40f2-afe6-120fe357d16c",
+                            RoleId = "007aad12-bf4b-46de-879c-8f69372466d5"
                         });
                 });
 
