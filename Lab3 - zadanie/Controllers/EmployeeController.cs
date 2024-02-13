@@ -25,13 +25,15 @@ namespace Lab3zadanie.Controllers
             var employee = _employeeService.FindAll().Select(EmployeeMapper.FromEntity).ToList();
             return View(employee);
         }
-
+        
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View(new Employee());
         }
-
+        
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public IActionResult Create(Employee model)
         {
@@ -43,7 +45,8 @@ namespace Lab3zadanie.Controllers
             }
             return View(model);
         }
-
+        
+        [Authorize(Roles = "admin")]
         [HttpGet]
         public IActionResult Update(int id)
         {
@@ -68,7 +71,7 @@ namespace Lab3zadanie.Controllers
             return View(model);
         }
 
-
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public IActionResult Update(Employee model)
         {
@@ -95,7 +98,7 @@ namespace Lab3zadanie.Controllers
             return View(model);
         }
 
-
+        [Authorize(Roles = "admin")]
         [HttpGet]
         public IActionResult Delete(int id)
         {
@@ -107,7 +110,7 @@ namespace Lab3zadanie.Controllers
 
             return View(EmployeeMapper.FromEntity(employee));
         }
-
+        [Authorize(Roles = "admin")]
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
