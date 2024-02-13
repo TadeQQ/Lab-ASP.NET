@@ -1,21 +1,21 @@
 ﻿@model Lab3zadanie.Models.Employee
 
-<h1>Edit an Employee</h1>
+<h1>Update an Employee</h1>
 <form asp-controller="Employee" asp-action="Update" method="post">
     <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label asp-for="FirstName">FirstName</label>
+        <label asp-for="FirstName">First Name</label>
         <input class="form-control" asp-for="FirstName" />
         <span class="text-danger" asp-validation-for="FirstName"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="LastName">LastName</label>
+        <label asp-for="LastName">Last Name</label>
         <input class="form-control" asp-for="LastName" />
         <span class="text-danger" asp-validation-for="LastName"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="PESEL">Pesel</label>
+        <label asp-for="PESEL">PESEL</label>
         <input class="form-control" asp-for="PESEL" />
         <span class="text-danger" asp-validation-for="PESEL"></span>
     </div>
@@ -26,8 +26,29 @@
     </div>
     <div class="mb-3">
         <label asp-for="Department">Department</label>
-        <input class="form-control" asp-for="Department" />
+        <select class="form-control" asp-for="Department">
+            @{
+                var enumValues = Enum.GetValues(typeof(Lab3zadanie.Models.Department));
+                foreach (var value in enumValues)
+                {
+                    <option value="@value">@value</option>
+                }
+            }
+        </select>
         <span class="text-danger" asp-validation-for="Department"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="EmploymentDate">Employment Date</label>
+        <input class="form-control" asp-for="EmploymentDate" />
+        <span class="text-danger" asp-validation-for="EmploymentDate"></span>
+    </div>
+    <div class="mb-3">
+        <label>
+            <input type="checkbox" id="terminationCheckbox" onclick="toggleTerminationDate()" />
+            Termination Date
+        </label>
+        <input class="form-control" id="terminationDateInput" asp-for="TerminationDate" disabled />
+        <span class="text-danger" asp-validation-for="TerminationDate"></span>
     </div>
     <div class="mb-3">
         <button class="btn btn-primary" type="submit">Save</button>
@@ -35,3 +56,14 @@
         <a class="btn btn-secondary" asp-action="Index">Back</a>
     </div>
 </form>
+
+<script>
+    function toggleTerminationDate() {
+        var terminationDateInput = document.getElementById("terminationDateInput");
+        if (terminationCheckbox.checked) {
+            terminationDateInput.removeAttribute("disabled");
+        } else {
+            terminationDateInput.setAttribute("disabled", "disabled");
+        }
+    }
+</script>
