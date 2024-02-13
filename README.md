@@ -12,22 +12,36 @@ Dane admina do logowania: Email: tadeusz@employees.pl Hasło: Haslo23!
 
 Dane użytkownika do logowania: Email: adam@employees.pl Hasło: Haselko23!
 
-Proces Uruchomienia Aplikacji w Wersji Deweloperskiej
+Proces Uruchomienia Aplikacji w Wersji Deweloperskiej:
 
 Uruchom plik AspLab.sln w Visual Studio.
+
 Wybierz lab3zadanie jako projekt startowy.
+
 Usuń poprzednie migracje z EmployeeData (EmployeeData/Migrations/... ).
+
 Usuń plik lub pliki employee.db (jeśli istnieją) z lokalizacji ( C:\Users\OEM\AppData\Local )
+
 Kliknij prawym przyciskiem myszy na EmployeeData, otwórz w terminalu i wpisz kolejno podane komendy (oddzielone znakiem | ), aby wykonać migrację: dotnet tool install --global |  dotnet-ef  | dotnet ef migrations add InitialCreate | dotnet ef database update
+
 Obok wybranego lab3zadanie kliknij zielony przycisk Play, by uruchomić aplikację.
+
 Po uruchomieniu kliknij w zakładkę Employees.
+
 Zaloguj się na konto admina lub użytkownika. (Jeżeli nie masz konta, to możesz takowe zarejestrować lecz będzie ono jako zwykły user).
+
 Aplikacja pokazuje wszystkich zapisanych pracowników w bazie danych.
+
 (admin) Aby dodać pracownika, kliknij "Add an Employee", a następnie wprowadź dane i wciśnij "Create".
+
 (admin) Przy dodawaniu użytkownika, z dat, mamy do wyboru tylko date zatrudnienia.
+
+
 (admin) Przy update użytkownika, z dat, mamy możliwość tez dodania też daty zwolnienia pracownika, jeżeli tego nie potrzeba to po prostu nie zaznaczamy opcji tego dotyczącej.
 (admin) Aplikacja daje możliwość edycji, zobaczenia detali oraz usunięcia pracownika.
+
 W widoku "Details" możemy podjerzeć informacje o pracowniku: imię, nazwisko, pesel, stanowisko, oddział, data zatrudnienia oraz data zwolnienia, a jeżeli nie został on zwolniony to widnieje informacja czy dalej pracuje.
+
 Po kliknięciu w swoje imię na navbarze, mamy dostęp do opcji związanych z kontem. 
 
 Unit testy napisane w xUnit, sprawdzają poprawność działania EmployeeController.
