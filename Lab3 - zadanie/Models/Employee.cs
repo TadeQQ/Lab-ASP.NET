@@ -17,7 +17,7 @@ namespace Lab3zadanie.Models
         public string LastName { get; set; }
 
         [Required(ErrorMessage = "Proszę podać PESEL.")]
-        [StringLength(11, ErrorMessage = "PESEL musi mieć 11 cyfr.")]
+        [RegularExpression(@"^\d{11}$", ErrorMessage = "PESEL musi mieć 11 cyfr.")]
         public string PESEL { get; set; }
 
         [Required(ErrorMessage = "Proszę podać stanowisko.")]
